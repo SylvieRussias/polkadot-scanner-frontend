@@ -1,0 +1,14 @@
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputWrapper-label {
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.InputWrapper-error-message {
+    padding-top: 0.7rem;
+}

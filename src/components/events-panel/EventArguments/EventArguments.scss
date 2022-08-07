@@ -1,0 +1,26 @@
+@import "../../../styles/theme.scss";
+
+.EventArguments {
+    background: $secondary-color;
+}
+
+.EventArguments-argument {
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+}
+
+.EventArguments-argument-name {
+    color: $primary-color-lighten;
+}
+
+.EventArguments-argument-value {
+    padding-left: 1rem;
+    max-height: 7.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.EventArguments-no-argument {
+    opacity: 0.5;
+    font-style: italic;
+}

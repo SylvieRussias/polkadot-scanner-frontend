@@ -1,0 +1,27 @@
+@import "../../styles/theme.scss";
+@import "../../styles/layout.scss";
+
+.ScannerPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ScannerPanel-scan-options-form {
+    @include panel-shadow;
+    @include full-width-content-side-padding;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    max-width: 70rem;
+    background: $panel-color;
+    border-radius: 2px;
+}
+
+.ScannerPanel-results {
+    @include full-width-content-side-padding;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

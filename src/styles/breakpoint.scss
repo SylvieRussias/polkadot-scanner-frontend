@@ -1,0 +1,7 @@
+$phone-max-size: 767px;
+
+@mixin for-phone {
+    @media (max-width: $phone-max-size) {
+        @content;
+    }
+}

@@ -1,0 +1,10 @@
+$primary-color: #4a6fb3;
+$primary-color-lighten: #6495ed;
+$secondary-color: #444444;
+$panel-color: #333333;
+$background-color: #222222;
+$danger: #d6123c;
+
+@mixin panel-shadow {
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.5));
+}

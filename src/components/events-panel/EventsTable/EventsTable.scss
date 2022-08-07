@@ -1,0 +1,32 @@
+@import "../../../styles/theme.scss";
+
+.EventsTable {
+    @include panel-shadow;
+
+    .react-bootstrap-table-sort-order .caret:after,
+    .dropdown .caret:after {
+        content: "↓";
+    }
+
+    .dropup .caret:after {
+        content: "↑";
+    }
+
+    td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &.table > :not(caption) > * > * {
+        background-color: $panel-color !important;
+    }
+}
+
+.EventsTable-event-name {
+    word-break: break-all;
+}
+
+.EventsTable-block-number::after {
+    content: "▼";
+    margin-left: 0.5rem;
+}

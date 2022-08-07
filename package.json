@@ -1,0 +1,66 @@
+{
+    "name": "polkadot-scanner",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "11.9.3",
+        "@emotion/styled": "11.9.3",
+        "@mui/material": "5.9.2",
+        "@polkadot/api": "8.14.1",
+        "@testing-library/jest-dom": "5.16.4",
+        "@testing-library/react": "13.3.0",
+        "@testing-library/user-event": "13.5.0",
+        "@types/jest": "27.5.2",
+        "@types/node": "16.11.46",
+        "@types/react": "18.0.15",
+        "@types/react-dom": "18.0.6",
+        "bootstrap": "5.2.0",
+        "i18next": "21.8.16",
+        "mobx": "6.6.1",
+        "mobx-react-lite": "3.4.0",
+        "postcss": "8.4.16",
+        "react": "18.2.0",
+        "react-bootstrap-table-next": "4.0.3",
+        "react-dom": "18.2.0",
+        "react-hook-form": "7.34.0",
+        "react-i18next": "11.18.3",
+        "react-scripts": "5.0.1",
+        "rxjs": "7.5.6",
+        "sass": "1.54.0",
+        "typescript": "4.7.4",
+        "web-vitals": "2.1.4"
+    },
+    "devDependencies": {
+        "@polkadot/dev": "0.67.86",
+        "@types/react-bootstrap-table-next": "4.0.18",
+        "jest-watch-typeahead": "0.6.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "jest": {
+        "transformIgnorePatterns": [
+            "<rootDir>/node_modules/(?!@polkadot)"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

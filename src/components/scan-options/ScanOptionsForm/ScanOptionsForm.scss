@@ -1,0 +1,26 @@
+@import "../../../styles/button.scss";
+
+.ScanOptionsForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 2rem;
+}
+
+.ScanOptionsForm-fields {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    & > * {
+        flex-grow: 1;
+    }
+}
+
+.ScanOptionsForm-submit {
+    @include primary-button;
+    align-self: flex-start;
+    margin-top: 1.7rem;
+}

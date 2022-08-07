@@ -1,0 +1,23 @@
+@import "../../../styles/theme.scss";
+
+@mixin input() {
+    min-width: 15rem;
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 3px;
+    height: 2.3rem;
+    padding: 0.5rem;
+    &:focus-visible {
+        outline: 1px solid $primary-color-lighten;
+    }
+}
+
+.TextInput-valid {
+    @include input;
+}
+
+.TextInput-invalid {
+    @include input;
+    outline: 1px solid $danger;
+}

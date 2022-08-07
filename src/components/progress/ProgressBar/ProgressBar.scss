@@ -1,0 +1,20 @@
+@import "../../../styles/theme.scss";
+
+.ProgressBar {
+    width: 100%;
+
+    .MuiLinearProgress-root {
+        height: 0.5rem;
+        background-color: $secondary-color;
+    }
+
+    .MuiLinearProgress-bar {
+        background-color: $primary-color;
+    }
+}
+
+.ProgressBar-text {
+    min-height: 2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+}

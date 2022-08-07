@@ -1,0 +1,38 @@
+{
+    "resources": {
+        "en": {
+            "translation": {
+                "appTitle": "Polkadot Event Scanner",
+                "startBlock": "Start Block",
+                "endBlock": "End Block",
+                "endpoint": "Endpoint",
+                "startScan": "Start scanning",
+                "ex:": "ex:",
+                "emptyBlockInputError": "Please enter a block number",
+                "invalidBlockInputError": "Please enter a valid block number",
+                "emptyEndpointInputError": "Please enter an endpoint",
+                "invalidEndpointInputError": "Should start with 'wss://'",
+                "startBlockAfterEndBlockError": "End Block cannot be before Start Block",
+                "event": "event",
+                "events": "events",
+                "filterEventByName": "Filter by event name",
+                "blockNumber": "Block number",
+                "eventName": "Event Name",
+                "eventHash": "Hash",
+                "ScannerState": {
+                    "Ready": "Ready",
+                    "Error": "Error",
+                    "Loading_API": "Loading API...",
+                    "Loading_Last_Block": "Loading Last Block...",
+                    "Scanning": "Scanning..."
+                }
+            }
+        }
+    },
+    "lng": "en",
+    "fallbackLng": "en",
+
+    "interpolation": {
+        "escapeValue": false
+    }
+}

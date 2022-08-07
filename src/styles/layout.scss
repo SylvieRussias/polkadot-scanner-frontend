@@ -1,0 +1,13 @@
+@import "breakpoint.scss";
+
+@mixin side-padding($size) {
+    padding-left: $size;
+    padding-right: $size;
+}
+
+@mixin full-width-content-side-padding() {
+    @include side-padding(2rem);
+    @include for-phone {
+        @include side-padding(1rem);
+    }
+}
