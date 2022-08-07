@@ -37,6 +37,9 @@
         "gh-pages": "4.0.0",
         "jest-watch-typeahead": "0.6.5"
     },
+    "engines": {
+        "node": "16.16.0"
+    },
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
