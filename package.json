@@ -1,6 +1,7 @@
 {
     "name": "polkadot-scanner",
     "version": "0.1.0",
+    "homepage": "https://SylvieRussias.github.io/polkadot-scanner-frontend",
     "private": true,
     "dependencies": {
         "@emotion/react": "11.9.3",
@@ -33,9 +34,12 @@
     "devDependencies": {
         "@polkadot/dev": "0.67.86",
         "@types/react-bootstrap-table-next": "4.0.18",
+        "gh-pages": "4.0.0",
         "jest-watch-typeahead": "0.6.5"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test"
@@ -53,9 +57,11 @@
     },
     "browserslist": {
         "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
+            "chrome >= 67",
+            "edge >= 79",
+            "firefox >= 68",
+            "opera >= 54",
+            "safari >= 14"
         ],
         "development": [
             "last 1 chrome version",

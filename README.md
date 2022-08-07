@@ -1,10 +1,10 @@
-# Read me
+# Introduction
 
 This is a web app that scans and displays events for the Polkadot Network.
 
 # About features
 
--   This app is inspired by this Polkadot Event Scanner https://polkadot.js.org/apps/#/explorer
+-   This app is inspired by this [Polkadot Event Scanner](https://polkadot.js.org/apps/#/explorer)
 
 -   Last block is not updated after it has been loaded once,
     because it could be unituitive to see it change in the form
@@ -83,4 +83,20 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## polkadot{.js} documentation
 
-polkadot{.js} "Getting started" guide is available at https://polkadot.js.org/docs/api/start
+See [polkadot{.js} "Getting started" guide](https://polkadot.js.org/docs/api/start)
+
+# Deployment
+
+The deployment uses Github Pages.
+
+For this project, deployment was set up following [this guide](https://github.com/gitname/react-gh-pages).
+
+## Deploy
+
+First install dependencies:
+
+`npm i --legacy-peer-deps`
+
+Then deploy (requires access to the repository):
+
+`npm run deploy`
